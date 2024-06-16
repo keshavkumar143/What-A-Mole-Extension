@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack a Mole</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Whack a Mole</h1>
+        <div class="score-board">
+            <span>Score: </span><span id="score">0</span>
+        </div>
+        <div class="timer">
+            <span>Time Left: </span><span id="time">20</span>s
+        </div>
+        <div class="grid">
+            <div class="hole" id="hole1"></div>
+            <div class="hole" id="hole2"></div>
+            <div class="hole" id="hole3"></div>
+            <div class="hole" id="hole4"></div>
+            <div class="hole" id="hole5"></div>
+            <div class="hole" id="hole6"></div>
+            <div class="hole" id="hole7"></div>
+            <div class="hole" id="hole8"></div>
+            <div class="hole" id="hole9"></div>
+        </div>
+        <button id="start">Start Game</button>
+        <button id="restart" style="display:none;">Restart Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
